@@ -29,7 +29,7 @@ function SwipeUI() {
 
 SwipeUI.HandleSwipe = (el) => {
 
-  el.style.opacity = "0"
+  el.style.opacity = "0";
   el.style.marginTop = "-100px";
 
 }
