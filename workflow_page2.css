@@ -1,0 +1,48 @@
+html, body {
+  margin:0;
+  /* overflow-y: hidden; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  position: relative;
+  width: 414px;
+  height: 100%;
+  align-self: center;
+  background: linear-gradient(180deg, #367A17 0%, #DAE9B0 30.21%, #EBE790 36.98%, #D67657 91.15%);
+}
+
+.title {
+  text-align: center;
+}
+
+#scrap {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#scrap img {
+  width: 438px;
+  height: 438px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  margin-bottom: -20px;
+}
+
+.facts {
+  display: flex;
+  justify-content: center;
+}
