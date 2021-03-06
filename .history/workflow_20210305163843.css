@@ -1,18 +1,15 @@
 html, body {
   margin:0;
+  
   /* overflow-y: hidden; */
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 #main{
-  position: absolute;
-  bottom: 0;
-  top: 0;
+  
   width: 414px;
   height: 2411px;
   align-self: center;

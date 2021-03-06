@@ -1,5 +1,6 @@
 html, body {
   margin:0;
+  
   /* overflow-y: hidden; */
 }
 
@@ -7,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 2411px;
 }
 
 #main{
