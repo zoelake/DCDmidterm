@@ -11,6 +11,8 @@ body {
 
 #main{
   position: absolute;
+  margin-top: 50px;
+  margin-bottom: 5px;
   z-index: -1;
   width: 414px;
   height: 2411px;
