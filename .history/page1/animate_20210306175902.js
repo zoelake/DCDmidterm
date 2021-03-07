@@ -4,11 +4,11 @@ var potatoe = document.querySelector("#potatoe");
 var apple = document.querySelector("#apple-img");
 var banana = document.querySelector("#banana");
 
-function HoverLetUp() {
+function HoverUp() {
     lettuce.style.bottom = "15px";
 }
 
-function HoverLetDown() {
+function HoverDown() {
     lettuce.style.bottom = "0px";
 }
 
@@ -42,10 +42,4 @@ function HoverBanUp() {
 
 function HoverBanDown() {
     banana.style.bottom = "0px";
-}
-
-function NextPage() {
-    //this will need to be changed once i have a link to the next page
-    var url = "https://www.bcit.ca/";
-    location.replace(url);
 }

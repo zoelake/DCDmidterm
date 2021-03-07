@@ -45,7 +45,6 @@ function HoverBanDown() {
 }
 
 function NextPage() {
-    //this will need to be changed once i have a link to the next page
-    var url = "https://www.bcit.ca/";
-    location.replace(url);
+    var url = "../page2/index.html";
+    window.location(url);
 }
