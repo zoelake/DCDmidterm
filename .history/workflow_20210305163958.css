@@ -1,5 +1,6 @@
 html, body {
   margin:0;
+  height: 2411px;
   /* overflow-y: hidden; */
 }
 
@@ -7,17 +8,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
-
-#main {
-  position: relative;
+#main{
+  position: absolute;
+  bottom: 0;
+  top: 0;
   width: 414px;
   height: 2411px;
   align-self: center;
   background-image: linear-gradient(#57A0D6, #367A17, #DAE9B0, #EBE790, #D67657, #E08283, #B498C8, #50BDDA, #8EDDE8);
 }
-
 .facts {
   display: flex;
   align-items: center;
