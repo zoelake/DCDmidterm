@@ -9,9 +9,9 @@ body {
   align-items: center;
 }
 
-
-#main {
-  position: relative;
+#main{
+  position: absolute;
+  z-index: -1;
   width: 414px;
   height: 2411px;
   align-self: center;
