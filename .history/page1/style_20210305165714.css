@@ -1,0 +1,31 @@
+html, body {
+    margin:0;
+    /* overflow-y: hidden; */
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #main{
+    position: absolute;
+    width: 414px;
+    height: 2411px;
+    align-self: center;
+    background-image: linear-gradient(#65A9D9, #A7D4E9, #C5D8BD, #7EAA6A, #D67657, #E08283, #B498C8, #50BDDA, #8EDDE8);
+  }
+  
+  .facts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  #wrap {
+    margin-bottom: 30px;
+  }
+  
+  
