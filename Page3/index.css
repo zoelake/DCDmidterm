@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    height: 1503px;
+    background-image: linear-gradient(#E08283, #B498C8, #50BDDA,#8EDDE8);
+    align-items: center;
+}
+
+img {
+    height: 363px;
+    width: 414px;
+    align-items: center;
+}
+
+.window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+/*
+/* 2688x1242px at 458ppi
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { } 
+    */
