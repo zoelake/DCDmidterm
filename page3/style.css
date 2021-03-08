@@ -14,7 +14,7 @@ body {
     width: 414px;
     height: 100%;
     align-self: center;
-    background-image: linear-gradient(#D67B57, #D67B57, #E08283, #E08283, #B498C8, #50BDDA, #8EDDE8);
+    background-image: linear-gradient(#D67B57, #D67B57, #D67B57, #E08283, #E08283, #E08283, #E08283, #B498C8, #50BDDA, #8EDDE8);
   }
 
   #toptext {
@@ -49,6 +49,7 @@ body {
     margin-top: 50px;
     margin-bottom: -20px;
   }
+
   #reduced {
     align-self: center;
     text-align: left;
@@ -95,23 +96,30 @@ li.onion {
       margin-bottom: -20px;
   }
 
-  #growing {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-shadow: 2px 2px #505050;
-    margin-left: 20px;
-    margin-bottom: -20px;
-  }
+#growing {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 2px 2px #505050;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: -20px;
+}
 
-  #growing > h2 {
-      text-align: left;
-  }
+#growing > .sowhat {
+    text-align: left;
+}
 
-  .title {
-    text-align: center;
-  }
+#growing > .looklike {
+  text-align: right;
+}
 
+.title {
+  text-align: center;
+  margin: 0 20px -20px 20px;
+}
+
+/*
   #infobox {
       align-self: center;
       text-align: left;
@@ -126,9 +134,15 @@ li.onion {
       border-radius: 20px;
       padding: 5px;
       padding-left: 20px;
-
   }
+  */
 
+  .alternatives {
+    display: flex;
+    justify-content: center;
+  } 
+
+  /*
   ul.no_bullet {
       list-style-type: none;
       padding: 0px;
@@ -141,6 +155,7 @@ li.onion {
       padding-left: 50px;
       padding-top: 25px;
   }
+  */
 
   #waterme {
       position: relative;

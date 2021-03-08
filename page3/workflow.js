@@ -1,1 +1,2 @@
 document.querySelector("#title1").innerHTML += titleUI("white", "#367A17", "Growing Food at Home", "#367A17");
+document.querySelector(".alternatives").innerHTML += BulletsUI(250, 300, "Aside from growing food on a farm or in the ground, some great alernatives include:", "images/artichoke.png", "Indoor gardens", "Balconies", "Community gardens");
