@@ -50,6 +50,12 @@ body {
     margin-bottom: -20px;
   }
 
+  .reduced {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*
   #reduced {
     align-self: center;
     text-align: left;
@@ -79,6 +85,7 @@ li.onion {
     padding-left: 50px;
     padding-top: 25px;
 }
+*/
 
   #window {
       display: flex;

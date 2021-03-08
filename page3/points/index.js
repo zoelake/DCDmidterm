@@ -1,4 +1,4 @@
-function BulletsUI(width ="332", height="269", alternative="alternative", bulletImg="../images/artichoke.png", bullet1="1", bullet2="2", bullet3="3") {
+function PointsUI(width ="332", height="269", reduced="reduced", pointImg="../images/onion.png", point1="1", point2="2", point3="3") {
     return `
       <div style="
         width: ${width}px;
@@ -18,7 +18,7 @@ function BulletsUI(width ="332", height="269", alternative="alternative", bullet
       "
       >
         <p>
-        ${alternative}</p>
+        ${reduced}</p>
         <div style="
           display: flex;
           flex-direction: column;
@@ -29,31 +29,31 @@ function BulletsUI(width ="332", height="269", alternative="alternative", bullet
             flex-direction: row;
             align-items: flex-end;
             ">
-              <img src="${bulletImg}" alt="bullet" width="50px">
-              <p>${bullet1}</p>
+              <img src="${pointImg}" alt="point" width="50px">
+              <p>${point1}</p>
           </div>
           <div style="
           display: flex;
           flex-direction: row;
           align-items: flex-end;
           ">
-            <img src="${bulletImg}" alt="bullet" width="50px">
-            <p>${bullet2}</p>
+            <img src="${pointImg}" alt="point" width="50px">
+            <p>${point2}</p>
           </div>
           <div style="
           display: flex;
           flex-direction: row;
           align-items: flex-end;
           ">
-            <img src="${bulletImg}" alt="bullet" width="50px">
-            <p>${bullet3}</p>
+            <img src="${pointImg}" alt="point" width="50px">
+            <p>${point3}</p>
       </div>
         </div>
       </div>
     `
   }
   
-  BulletsUI.HandleClick = (el) => {
+  PointsUI.HandleClick = (el) => {
   
     
   
