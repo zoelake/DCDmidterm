@@ -41,7 +41,7 @@ body {
     margin-bottom: -20px;
   }
 
-  #benefits {
+  #include {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -50,11 +50,11 @@ body {
     margin-bottom: -20px;
   }
 
-  .reduced {
+  .benefits {
     display: flex;
     justify-content: center;
   }
-  
+
   /*
   #reduced {
     align-self: center;
@@ -71,21 +71,7 @@ body {
     padding: 5px;
     padding-left: 20px;
     padding-bottom: 20px;
-  }
-
-  ul.onionbullet {
-    list-style-type: none;
-    padding: 0px;
-    margin:0;
-}
-
-li.onion {
-    background: url('images/onion.png') no-repeat left top;
-    height: 24px;
-    padding-left: 50px;
-    padding-top: 25px;
-}
-*/
+  } */
 
   #window {
       display: flex;
@@ -148,21 +134,6 @@ li.onion {
     display: flex;
     justify-content: center;
   } 
-
-  /*
-  ul.no_bullet {
-      list-style-type: none;
-      padding: 0px;
-      margin:0;
-  }
-
-  li.artichoke {
-      background: url('images/artichoke.png') no-repeat left top;
-      height: 25px;
-      padding-left: 50px;
-      padding-top: 25px;
-  }
-  */
 
   #waterme {
       position: relative;
