@@ -17,6 +17,13 @@ body {
     background-image: linear-gradient(#E08283, #B498C8, #50BDDA, #8EDDE8);
   }
 
+  #window {
+      display: flex;
+      align-self: center;
+      width: 100%;
+      height: 360px;
+  }
+
   #title {
       text-align: center;
       font-family: 'Montserrat', sans-serif;
@@ -38,12 +45,16 @@ body {
   }
 
   #infobox {
+      align-self: center;
       text-align: left;
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       color: #4F2B15;
       text-shadow: 1px 1px lightgray;
       background-color: #FFFFFF;
+      margin-left: 18px;
+      margin-right: 18px;
+      width: 85%;
       border-radius: 20px;
       padding: 5px;
       padding-left: 20px;
@@ -62,3 +73,19 @@ body {
       padding-left: 50px;
       padding-top: 25px;
   }
+
+  #waterme {
+      position: relative;
+      width: 202px;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      text-shadow: 2px 2px #505050;
+  }
+
+  #garden {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 275px;
+}
