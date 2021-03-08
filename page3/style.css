@@ -55,24 +55,6 @@ body {
     justify-content: center;
   }
 
-  /*
-  #reduced {
-    align-self: center;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #4F2B15;
-    text-shadow: 1px 1px lightgray;
-    background-color: #FFFFFF;
-    margin-left: 18px;
-    margin-right: 18px;
-    width: 85%;
-    border-radius: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  } */
-
   #window {
       display: flex;
       align-self: center;
@@ -114,24 +96,6 @@ body {
   margin-top: -30px;
   margin-bottom: -30px;
 }
-
-/*
-  #infobox {
-      align-self: center;
-      text-align: left;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      color: #4F2B15;
-      text-shadow: 1px 1px lightgray;
-      background-color: #FFFFFF;
-      margin-left: 18px;
-      margin-right: 18px;
-      width: 85%;
-      border-radius: 20px;
-      padding: 5px;
-      padding-left: 20px;
-  }
-  */
 
   .alternatives {
     display: flex;
