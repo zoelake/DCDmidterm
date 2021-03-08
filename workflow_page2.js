@@ -11,3 +11,4 @@ document.querySelector("#herbs").innerHTML += herbsUI();
 document.querySelector("#title4").innerHTML += titleUI("white", "#C06447", "Knowledge Check!", "#C06447");
 document.querySelector("#quiz").innerHTML += quizUI();
 document.querySelector("#garbage").innerHTML += garbageUI();
+document.querySelector("#backbutton").innerHTML += ButtonUI("< GO BACK");

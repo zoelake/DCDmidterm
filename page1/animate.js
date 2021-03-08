@@ -46,6 +46,6 @@ function HoverBanDown() {
 
 function NextPage() {
     //this will need to be changed once i have a link to the next page
-    var url = "https://www.bcit.ca/";
+    var url = "../workflow_page2.html";
     location.replace(url);
 }
