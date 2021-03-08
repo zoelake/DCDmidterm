@@ -31,7 +31,7 @@ function SwipeUI() {
 SwipeUI.HandleClick = (el) => {
 
   el.style.opacity = "0";
-  el.style.marginTop = "-100px";
+  el.style.marginTop = "-250px";
 
 }
 
