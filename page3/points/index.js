@@ -1,4 +1,4 @@
-function PointsUI(width ="332", height="269", reduced="reduced", pointImg="../images/onion.png", point1="1", point2="2", point3="3") {
+function PointsUI(width ="332", height="269", benefits="benefits", pointImg="./images/onion.png", point1="1", point2="2", point3="3") {
     return `
       <div style="
         width: ${width}px;
@@ -18,7 +18,7 @@ function PointsUI(width ="332", height="269", reduced="reduced", pointImg="../im
       "
       >
         <p>
-        ${reduced}</p>
+        ${benefits}</p>
         <div style="
           display: flex;
           flex-direction: column;
