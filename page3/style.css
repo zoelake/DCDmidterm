@@ -108,6 +108,10 @@ li.onion {
       text-align: left;
   }
 
+  .title {
+    text-align: center;
+  }
+
   #infobox {
       align-self: center;
       text-align: left;
