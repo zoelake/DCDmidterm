@@ -1,4 +1,4 @@
-function FactsUI(width ="332", height="269") {
+function FactsUI(width ="332", height="269", fact="fact") {
   return `
     <div style="
       width: ${width}px;
@@ -17,7 +17,7 @@ function FactsUI(width ="332", height="269") {
     onmouseout='FactsUI.HandleMouseOut(this)'
     >
       <p>
-      Insert Fact Here</p>
+      ${fact}</p>
     </div>
   `
 }

@@ -6,8 +6,8 @@ function WrapUI() {
       justify-content: center;
     ">
       <img style="
-        width: 40%;
-        height: 40%;
+        width: 90%;
+        height: 90%;
         "
         onclick='WrapUI.HandleClick(this)'
         ondblclick='WrapUI.HandleDblClick(this)'

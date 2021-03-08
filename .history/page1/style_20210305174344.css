@@ -1,0 +1,70 @@
+html, body {
+  margin:0;
+  /* overflow-y: hidden; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main{
+  position: relative;
+  width: 414px;
+  height: 2411px;
+  align-self: center;
+  background-image: linear-gradient(#65A9D9, #A7D4E9, #C5D8BD, #7EAA6A, #387B19);
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    color: #6BB25A;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #367A17;
+    font-size: 46px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#calendar{
+    width: 80%;
+    padding: 0 10%;
+}
+
+#calendar-text{
+    position: absolute;
+    width: 76%;
+    padding: 0 12%;
+    text-align: center;
+    top: 1000px;
+    z-index: 2;
+    color: #4F2B15;
+}
+
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.list-text{
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #1F471E;
+}
+
+.produce-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#text-waste{
+    color: white;
+    top: -10px;
+}
