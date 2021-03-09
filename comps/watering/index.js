@@ -2,7 +2,7 @@ function waterUI() {
   return `
     <div style="
     width: 100%;
-    height: 400px;
+    height: 350px;
     ">
       <img src="./images/watercan.png" alt="watering can" onclick='waterUI.HandleClick(this)' onmouseout='waterUI.HandleMouseOut(this)' style="
         position: relative;

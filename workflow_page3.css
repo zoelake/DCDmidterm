@@ -134,18 +134,19 @@ h4 {
 #end {
   position: relative;
   top: 200px;
-  left: 50px;
+  left: 25px;
   opacity: 0;
   transition: opacity 2s;
 }
 
 #end img {
-  width: 50%;
+  width: 70%;
 }
 
 #happy {
-  margin-bottom: -50px;
   opacity: 0;
+  position: relative;
+  top: 100px;
   transition: opacity 2s;
 }
 
