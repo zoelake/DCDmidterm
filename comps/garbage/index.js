@@ -1,9 +1,11 @@
 function garbageUI() {
   return `
-    <a href="https://www.thecutecats.com/"><img src="./images/garbage.png" width="300px"></a>
+    <img src="./images/garbage.png" width="300px" onclick='garbageUI.HandleClick(this)'>
   `
 }
 
-// garbageUI.HandleClick = (el) => {
-// onclick='garbageUI.HandleClick(this)'
-// }
+garbageUI.HandleClick = (el) => {
+  var url = "./workflow_page3.html";
+  location.replace(url);
+}
+

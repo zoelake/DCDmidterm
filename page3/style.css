@@ -55,17 +55,6 @@ body {
     justify-content: center;
   }
 
-<<<<<<< HEAD
-  .swipeSection {
-    display: flex;
-    width: 100%;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-=======
->>>>>>> abf16c738e1e0773fd993ccafc5df31cda9c894f
   /*
   #reduced {
     align-self: center;
@@ -161,7 +150,8 @@ body {
 
   #garden {
     display: flex;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 275px;
-}
+  }
