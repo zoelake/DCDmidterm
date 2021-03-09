@@ -1,6 +1,6 @@
 document.querySelector("#title1").innerHTML += titleUI("white", "#367A17", "Food Waste?", "#367A17");
 document.querySelector(".facts").innerHTML += BulletsUI(250, 300, "Food waste includes any food fit for human consumption that is thrown out. Frequent discards are due to:", "./images/artichoke.png", "Oversupply", "Consumer habits", "Irregular appearances");
-document.querySelector(".swipe").innerHTML += SwipeUI();
+// document.querySelector(".swipe").innerHTML += SwipeUI();
 document.querySelector("#title2").innerHTML += titleUI("#6BB25A", "#367A17", "Consider this...", "#367A17");
 document.querySelector("#globe").innerHTML += globeUI();
 document.querySelector(".small_fact").innerHTML += smallFactUI("./images/eaten_apple.png", "Canada's Annual Food Waste");
