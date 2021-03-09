@@ -81,14 +81,14 @@ h4 {
   align-items: center;
 }
 
-#window {
+.window {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
 }
 
-#window img {
-  width: 70%;
+.window img {
+  width: 60%;
   display: flex;
 }
 
