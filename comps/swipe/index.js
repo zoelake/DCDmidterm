@@ -10,13 +10,14 @@ function SwipeUI() {
   margin-bottom: 50px;
   transition: opacity 1s, margin-top 1s;
   " 
-  onclick='SwipeUI.HandleSwipe(this)'
+  onclick='SwipeUI.HandleClick(this)'
   >
   <p style="
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   margin-bottom: 0;
   "
+  onclick="scrollWin(0, 100)"
   >SWIPE UP</p>
   <img style="
   width: 10%;
@@ -27,11 +28,15 @@ function SwipeUI() {
   `
 }
 
-SwipeUI.HandleSwipe = (el) => {
+SwipeUI.HandleClick = (el) => {
 
   el.style.opacity = "0";
-  el.style.marginTop = "-100px";
+  el.style.marginTop = "-250px";
 
+}
+
+function scrollWin(x, y) {
+  window.scrollBy(x, y);
 }
 
 // export const SwipeButton = SwipeUI();

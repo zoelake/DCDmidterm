@@ -6,6 +6,9 @@ var banana = document.querySelector("#banana");
 
 function HoverLetUp() {
     lettuce.style.bottom = "15px";
+    document.getElementById("lettuce-text").style.opacity = "1";
+    document.getElementById("hover").style.top = "1300px"
+    document.getElementById("hover").style.width = "40%"
 }
 
 function HoverLetDown() {
@@ -14,6 +17,7 @@ function HoverLetDown() {
 
 function HoverTomUp() {
     tomatoe.style.bottom = "15px";
+    document.getElementById("tomato-text").style.opacity = "1";
 }
 
 function HoverTomDown() {
@@ -22,6 +26,7 @@ function HoverTomDown() {
 
 function HoverPotUp() {
     potatoe.style.bottom = "15px";
+    document.getElementById("potato-text").style.opacity = "1";
 }
 
 function HoverPotDown() {
@@ -30,6 +35,7 @@ function HoverPotDown() {
 
 function HoverAppUp() {
     apple.style.bottom = "15px";
+    document.getElementById("apple-text").style.opacity = "1";
 }
 
 function HoverAppDown() {
@@ -38,6 +44,7 @@ function HoverAppDown() {
 
 function HoverBanUp() {
     banana.style.bottom = "15px";
+    document.getElementById("banana-text").style.opacity = "1";
 }
 
 function HoverBanDown() {
@@ -46,6 +53,6 @@ function HoverBanDown() {
 
 function NextPage() {
     //this will need to be changed once i have a link to the next page
-    var url = "https://www.bcit.ca/";
+    var url = "../workflow_page2.html";
     location.replace(url);
 }
