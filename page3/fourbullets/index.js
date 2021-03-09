@@ -1,10 +1,10 @@
-function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images/artichoke.png", bullet1="1", bullet2="2", bullet3="3") {
+function FourBulletsUI(width ="332", height="269", bulletImg="../images/artichoke.png", bullet1="1", bullet2="2", bullet3="3", bullet4="4") {
   return `
     <div style="
       width: ${width}px;
       height: ${height}px;
       background-color: #E5E5E5;
-      text-align: center;
+      text-align: left;
       padding: 20px;
       border: 2px solid white;
       border-radius: 20px;
@@ -14,11 +14,9 @@ function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images
       font-size: 18px;
       font-style: normal;
       font-weight: 500;
-      padding-bottom: 20px;
+
     "
     >
-      <p>
-      ${fact}</p>
       <div style="
         display: flex;
         flex-direction: column;
@@ -27,7 +25,7 @@ function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images
         <div style="
           display: flex;
           flex-direction: row;
-          align-items: flex-end;
+          align-items: center;
           ">
             <img src="${bulletImg}" alt="bullet" width="50px">
             <p>${bullet1}</p>
@@ -35,7 +33,7 @@ function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images
         <div style="
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: center;
         ">
           <img src="${bulletImg}" alt="bullet" width="50px">
           <p>${bullet2}</p>
@@ -43,18 +41,20 @@ function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images
         <div style="
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: center;
         ">
           <img src="${bulletImg}" alt="bullet" width="50px">
           <p>${bullet3}</p>
-    </div>
+        </div>
+        <div style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        ">
+          <img src="${bulletImg}" alt="bullet" width="50px">
+          <p>${bullet4}</p>
+        </div>
       </div>
     </div>
   `
-}
-
-BulletsUI.HandleClick = (el) => {
-
-  
-
 }

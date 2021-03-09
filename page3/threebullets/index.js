@@ -1,4 +1,4 @@
-function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images/artichoke.png", bullet1="1", bullet2="2", bullet3="3") {
+function ThreeBulletsUI(width ="332", height="269", fact="fact", bulletImg="../images/artichoke.png", bullet1="1", bullet2="2", bullet3="3") {
   return `
     <div style="
       width: ${width}px;
@@ -14,7 +14,7 @@ function BulletsUI(width ="332", height="269", fact="fact", bulletImg="../images
       font-size: 18px;
       font-style: normal;
       font-weight: 500;
-      padding-bottom: 20px;
+
     "
     >
       <p>

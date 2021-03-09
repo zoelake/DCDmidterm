@@ -20,6 +20,6 @@ function ButtonUI(text="< GO BACK") {
 }
 
 ButtonUI.HandleClick = (el) => {
-    var url = "./page1/index.html";
+    var url = "./workflow_page2.html";
     location.replace(url);
 }

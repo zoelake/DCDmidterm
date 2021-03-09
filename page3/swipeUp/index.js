@@ -1,4 +1,4 @@
-function SwipeUI() {
+function SwipeUpUI() {
   return `
   <div style="
   height: 100%;
@@ -16,9 +16,6 @@ function SwipeUI() {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   margin-bottom: 0;
-  color:white;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px black;
   "
   onclick="scrollWin(0, 100)"
   >SWIPE UP</p>
@@ -41,5 +38,3 @@ SwipeUI.HandleClick = (el) => {
 function scrollWin(x, y) {
   window.scrollBy(x, y);
 }
-
-// export const SwipeButton = SwipeUI();
