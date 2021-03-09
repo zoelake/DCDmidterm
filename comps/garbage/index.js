@@ -1,6 +1,6 @@
 function garbageUI() {
   return `
-    <img src="./images/garbage.png" width="300px" onclick='garbageUI.HandleClick(this)'>
+    <img src="./images/garbage.png" width="300px" onclick='garbageUI.HandleClick(this)' style="margin-bottom: 60px">
   `
 }
 

@@ -12,8 +12,6 @@ function quizUI() {
       font-style: normal;
       font-weight: 500;
       text-align: center;
-      margin-top: 50px;
-      margin-bottom: 100px;
     ">
       <p>Canada's annual food waste is the equivalent to approximately ___ cars emissions</p>
       <div style="

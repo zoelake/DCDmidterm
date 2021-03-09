@@ -49,6 +49,7 @@ waterUI.HandleClick = (el) => {
 waterUI.HandleMouseOut = (el) => {
   el.style.transform = "rotate(0deg)";
   document.querySelector("#end").style.opacity = "1"
+  document.querySelector("#happy").style.opacity = "1"
 
 }
 
