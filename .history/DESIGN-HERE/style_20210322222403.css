@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+#header {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left:0;
+    margin: 10px;
+    border: 2px solid red;
+    align-items: center;
+}
+
+#logo {
+    justify-content: flex-start;
+    border: 2px solid blue;
+    width: 50%;
+}
+
+#logo-image {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+}
+
+#nav {
+    justify-content: flex-end;
+    background-image: linear-gradient(#5D9742, #5DA4D7, #C98EA9);
+    color: white;
+    border: 2px solid chartreuse;
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    word-spacing: 50vmax;
+}
