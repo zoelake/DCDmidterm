@@ -56,6 +56,12 @@ h1 {
     max-width: 100%;
     text-align: center;
     word-spacing: 3.5vmax;
+    font-family: 'Bebas Neue', cursive;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 footer{
