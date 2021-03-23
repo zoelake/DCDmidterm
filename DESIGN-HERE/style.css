@@ -15,7 +15,6 @@ font-family: 'Montserrat', sans-serif; */
     flex-direction: row;
     top: 0;
     left:0;
-    border: 2px solid red;
     align-items: center;
     padding: 10px;
 }
@@ -23,7 +22,6 @@ font-family: 'Montserrat', sans-serif; */
 #logo {
     display: flex;
     justify-content: flex-start;
-    border: 2px solid blue;
     width: 50%;
     padding: 20px;
 }
@@ -54,7 +52,6 @@ h1 {
     padding-right: 30px;
     background-image: linear-gradient(90deg, #5D9742, #5DA4D7, #C98EA9);
     color: white;
-    border: 2px solid chartreuse;
     width: 40%;
     max-width: 100%;
     text-align: center;
@@ -75,7 +72,7 @@ a{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 46px;
-    padding-top: 50px;
+    padding: 30px;
 }
 
 .line {
@@ -83,6 +80,7 @@ a{
     width: 70vw;
     height: 1px;
     background-color: black;
+    margin-top: 40px;
 }
 
 #main {
@@ -113,7 +111,6 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
     height: 100%;
     padding: 20px;
 }
@@ -132,10 +129,13 @@ a{
     align-items: center;
 }
 
+#logo_colour {
+    margin-bottom: 13px;
+}
+
 #left_right {
-    border: 1px solid black;
     height: 100%;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
 }
 
 #left_right img {
@@ -143,14 +143,6 @@ a{
     height: 100%;
     object-fit: cover;
     overflow: hidden;
-}
-
-#logo_colour, #logo_white {
-    
-}
-
-#logo_main {
-    
 }
 
 #right {
