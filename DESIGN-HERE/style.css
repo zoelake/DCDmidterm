@@ -1,8 +1,7 @@
 html, body {
-    margin: 0;
+    margin: 0 auto;
     width: 100vw;
     height: 100vh;
-    /* position: relative; */
 }
 
 /* font-family: 'Permanent Marker', cursive;
@@ -67,9 +66,17 @@ a{
 footer{
     border: 2px solid pink;
     bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#foot_div {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 #rainbow-stripes {
     width: 25%;
-    max-width: 500px;
 }
