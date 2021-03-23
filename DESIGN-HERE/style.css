@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    position: relative;
+    /* position: relative; */
 }
 
 /* font-family: 'Permanent Marker', cursive;
@@ -20,6 +20,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 #logo {
+    display: flex;
     justify-content: flex-start;
     border: 2px solid blue;
     width: 50%;
@@ -35,13 +36,24 @@ h1 {
     font-size: 64px;
 }
 
-#nav {
+#nav_container {
+    display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    margin-right: 20px;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: linear-gradient(#5D9742, #5DA4D7, #C98EA9);
     color: white;
     border: 2px solid chartreuse;
-    width: 50%;
-    max-width: 500px;
+    width: 40%;
+    max-width: 100%;
     text-align: center;
     word-spacing: 3.5vmax;
 }
