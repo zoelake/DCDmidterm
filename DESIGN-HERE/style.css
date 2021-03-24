@@ -76,8 +76,30 @@ a{
     padding: 30px;
 }
 
+.titles_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    right: 50px;
+    justify-content: right;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    padding: 30px;
+}
+
 .line {
     display: flex;
+    width: 70vw;
+    height: 1px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.line_right {
+    display: flex;
+    justify-content: flex-end;
     width: 70vw;
     height: 1px;
     background-color: black;
@@ -198,6 +220,111 @@ footer{
 .rainbow-stripes {
     width: 25%;
 }
+
+/* Page 2 */
+
+
+#colour, #typography, #iconography, #graphics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.colour_child {
+    display: flex;
+}
+
+#colour_right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#colour_left {
+    width: 60%;
+}
+
+#colour img, #typography img, #iconography img, #graphics img, #type_rules img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#typography_child, #icon_child, #graphics_child {
+    display: flex;
+}
+
+#typography_left {
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#typography_right {
+    width: 50%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+#typography_child {
+    justify-content: center;
+    align-items: center;
+}
+
+#type_rules {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#icon_left {
+    display: flex;
+    width: 30%;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+#icon_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#graphics_right {
+    display: flex;
+    width: 50%;
+}
+
+#graphics_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    width: 40%;
+}
+
+#page2_foot {
+    margin-top: 100px;
+}
+
 
 /* Page 3 */
 /* PAGE 2 BODY */
