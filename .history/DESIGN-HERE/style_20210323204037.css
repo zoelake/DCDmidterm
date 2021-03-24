@@ -200,7 +200,16 @@ footer{
 }
 
 /* Page 3 */
-/* PAGE 2 BODY */
+content {
+    width: 800px;
+  
+#  margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .styleguide-details {
     list-style-type: none;
@@ -340,6 +349,7 @@ button {
 
 }
 
+/* page 2 */
 
 /* GRAPHICS SECTION */
 
